@@ -737,7 +737,8 @@ section#education #education-intro #list-education .education-item::after {
   height: 45px;
   background: #777777;
   position: absolute;
-  margin-left: -116px;
+  left: 0;
+  margin-left: 116px;
   margin-top: -68px;
 }
 section#education #education-intro #list-education .education-item h3 {
