@@ -283,7 +283,8 @@ header #particles-js {
   height: 100%;
 }
 header #header-slogan {
-  margin-top: 40vh;
+  /*margin-top: 40vh;*/
+  margin-top: 30vh;
 }
 header #header-slogan h1 {
   color: #ffffff;
@@ -360,7 +361,7 @@ header #scroll-section span#scroll-text {
 /*  3. ABOUT SECTION
 /*----------------------------------------*/
 section#about {
-  margin-top: 120px;
+  margin-top: 55px;
 }
 section#about #intro-name {
   text-align: center;
