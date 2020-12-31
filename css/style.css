@@ -105,7 +105,7 @@ nav.navbar #navbar ul.nav li {
 }
 nav.navbar #navbar ul.nav li.active a,
 nav.navbar #navbar ul.nav li a:hover {
-  color: #22eaaa;
+  color: #007d91;
   background: none;
 }
 nav.navbar #navbar ul.nav li a {
@@ -125,7 +125,7 @@ nav.navbar #navbar ul.nav li a::after {
   content: '';
   width: 0%;
   height: 4px;
-  background: #22eaaa;
+  background: #007d91;
   position: absolute;
   left: 0;
   right: 0;
@@ -197,7 +197,7 @@ nav.navbar #navbar ul.nav li a::after {
     border-radius: 3px;
   }
   .navbar-nav::-webkit-scrollbar-thumb {
-    background: #22eaaa;
+    background: #007d91;
     border-radius: 3px;
   }
   .navbar-nav > li {
@@ -394,7 +394,7 @@ section#about #intro-content #image-resume img {
 }
 section#about #intro-content #intro-main {
   padding: 45px 30px 0px 35px;
-  height: 250px;
+  /*height: 250px;*/
 }
 section#about #intro-content #intro-main p#intro-text {
   font-family: 'Roboto', sans-serif;
@@ -407,20 +407,21 @@ section#about #intro-content #intro-main #signature {
   margin-top: 90px;
 }
 section#about #intro-content #intro-main #social-bar {
-  width: 90%;
+  width: 100%;
   height: 90px;
-  background: #22eaaa;
-  margin: 70px auto;
+  background: #007d91;
+  /*margin: 70px auto;*/
   margin-bottom: -5px;
   font-size: 26px;
-  padding: 28px 0px;
+  padding: 30px 0px;
   text-align: center;
-  position: absolute;
-  bottom: 0;
+  /*position: absolute;*/
+  /*bottom: 0;*/
 }
 section#about #intro-content #intro-main #social-bar a {
   color: #fff;
   padding: 0px 6%;
+  text-decoration: none;
 }
 section#about #intro-content #intro-main #social-bar a i {
   transition: filter.5s, transform .2s;
@@ -472,14 +473,14 @@ section#about #intro-content #intro-main #social-bar a:hover i {
 /*  4. WORK SKILLS SECTION
 /*----------------------------------------*/
 section#work-skills {
-  margin-top: 76px;
+  margin-top: 50px;
 }
 section#work-skills .section-title,
 section#work-skills .section-description {
   text-align: center;
 }
 section#work-skills #skill-percentage-section {
-  margin-top: 59px;
+  margin-top: 30px;
 }
 section#work-skills #skill-percentage-section .skill .skill-title h4 {
   font-family: 'Roboto', sans-serif;
@@ -504,7 +505,7 @@ section#work-skills #skill-percentage-section .skill .skill-percentage-bar .prog
 }
 section#work-skills #skill-percentage-section .skill .skill-percentage-bar .progress .progress-bar {
   height: 4px;
-  background: #22eaaa;
+  background: #007d91;
   margin-top: 45px;
   box-shadow: none;
   transition: width 1.5s ease-in-out;
@@ -523,14 +524,14 @@ section#work-skills #skill-percentage-section .skill .skill-percentage-bar .prog
   font-size: 15px;
 }
 section#work-skills #skills-explanation {
-  margin-top: 80px;
+  margin-top: 50px;
 }
 section#work-skills #skills-explanation .skill-item {
-  margin-bottom: 30px;
+  /*margin-bottom: 30px;*/
 }
 section#work-skills #skills-explanation .skill-item img.skill-icon {
   float: left;
-  border-right: 2px solid #22eaaa;
+  border-right: 2px solid #007d91;
   padding-right: 25px;
   max-width: 20%;
 }
@@ -580,14 +581,14 @@ section#work-skills #skills-explanation .skill-item .skill-text p {
 /*  5. WORK EXPERIENCE SECTION
 /*----------------------------------------*/
 section#work-experience {
-  margin-top: 42px;
+  margin-top: 50px;
 }
 section#work-experience .section-title,
 section#work-experience .section-description {
   text-align: center;
 }
 section#work-experience #list-experience {
-  margin-top: 80px;
+  margin-top: 50px;
 }
 section#work-experience #list-experience .experience-item .experience-period {
   margin-top: 23px;
@@ -596,10 +597,13 @@ section#work-experience #list-experience .experience-item .experience-period spa
   font-family: 'Droid Serif', serif;
   font-size: 16px;
   font-weight: 700;
-  background: #22eaaa;
+  background: #007d91;
   color: #fff;
   padding: 5px 25px;
   margin-left: 99px;
+}
+.experience-detail b {
+  font-weight: 600;
 }
 section#work-experience #list-experience .experience-item .experience-detail {
   border-left: 1px solid #999999;
@@ -694,14 +698,14 @@ section#work-experience #list-experience .experience-item .experience-detail p {
 /*  6. EDUCATION SECTION
 /*----------------------------------------*/
 section#education {
-  margin-top: 55px;
+  margin-top: 50px;
 }
 section#education .section-title,
 section#education .section-description {
   text-align: center;
 }
 section#education #education-intro {
-  margin-top: 113px;
+  margin-top: 50px;
 }
 section#education #education-intro img {
   width: 95%;
@@ -728,7 +732,7 @@ section#education #education-intro #list-education .education-item::before {
   margin-top: -13px;
   font-family: 'Roboto', sans-serif;
   font-size: 52px;
-  color: #22eaaa;
+  color: #007d91;
   font-weight: 300;
 }
 section#education #education-intro #list-education .education-item::after {
@@ -774,7 +778,7 @@ section#education #education-intro #list-education .education-item span {
   }
 }
 section#information-number {
-  margin-top: 120px;
+  /*margin-top: 120px;*/
 }
 section#information-number .container {
   border-top: 1px solid #dddddd;
@@ -808,7 +812,7 @@ section#information-number .container .information-number-item .information-numb
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 36px;
-  color: #22eaaa;
+  color: #007d91;
   padding-left: 28px;
 }
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -834,7 +838,7 @@ section#information-number .container .information-number-item .information-numb
 /*  7. PORTFOLIO SECTION
 /*----------------------------------------*/
 section#portfolio {
-  margin-top: 95px;
+  margin-top: 50px;
 }
 section#portfolio .section-title {
   text-align: center;
@@ -842,7 +846,7 @@ section#portfolio .section-title {
 section#portfolio ul#portfolio-filter {
   text-align: center;
   padding-left: 0px;
-  margin-top: 70px;
+  margin-top: 50px;
   margin-bottom: 30px;
 }
 section#portfolio ul#portfolio-filter li {
@@ -869,7 +873,7 @@ section#portfolio ul#portfolio-filter li::before {
   width: 0px;
   height: 1px;
   position: absolute;
-  background: #22eaaa;
+  background: #007d91;
   margin-left: -10px;
   margin-top: 10px;
   transition: width .3s;
@@ -907,7 +911,7 @@ section#portfolio .portfolio-item .portfolio-img img {
 section#portfolio .portfolio-item .portfolio-description {
   width: calc(100% - 30px);
   height: 41%;
-  background: #22eaaa;
+  background: #007d91;
   position: absolute;
   z-index: 1000;
   text-align: center;
@@ -1091,13 +1095,13 @@ section#portfolio #portfolio-hidden .portfolio-item {
 /*  8. CLIENT SECTION
 /*----------------------------------------*/
 section#clients {
-  margin-top: 90px;
+  margin-top: 50px;
 }
 section#clients .section-title {
   text-align: center;
 }
 section#clients #client-quote {
-  margin-top: 105px;
+  margin-top: 50px;
   width: 100%;
   background: url('../img/client-background.jpg');
   background-size: cover;
@@ -1196,7 +1200,7 @@ section#blog .section-title {
   text-align: center;
 }
 section#blog #blog-carousel {
-  margin-top: 115px;
+  margin-top: 50px;
 }
 section#blog .carousel-inner {
   width: 102.5%!important;
@@ -1527,7 +1531,7 @@ section#blog .small-blog-item a::before {
 /*  10. CONTACT SECTION
 /*----------------------------------------*/
 section#contact {
-  margin-top: 90px;
+  margin-top: 50px;
 }
 section#contact .section-title {
   text-align: center;
@@ -1535,7 +1539,7 @@ section#contact .section-title {
 section#contact #contact-content {
   width: 100%;
   height: 100%;
-  margin-top: 100px;
+  margin-top: 50px;
   padding-top: 80px;
   background: url('../img/contact-background.jpg');
   background-size: cover;
@@ -1548,7 +1552,7 @@ section#contact #contact-content::before {
   height: 102%;
   position: absolute;
   background: #000000;
-  opacity: .7;
+  opacity: .75;
   margin-top: -80px;
 }
 section#contact #contact-content #contact-form {
@@ -1581,16 +1585,16 @@ section#contact #contact-content #contact-form .form-group textarea:valid ~ labe
 }
 section#contact #contact-content #contact-form .form-group textarea:active,
 section#contact #contact-content #contact-form .form-group textarea:focus {
-  border-bottom: #22eaaa 1px solid;
+  border-bottom: #007d91 1px solid;
 }
 section#contact #contact-content #contact-form .form-group textarea:active::placeholder,
 section#contact #contact-content #contact-form .form-group textarea:focus::placeholder {
-  color: #22eaaa;
+  color: #007d91;
 }
 section#contact #contact-content #contact-form .form-group textarea:active ~ label,
 section#contact #contact-content #contact-form .form-group textarea:focus ~ label {
   margin-top: -165px;
-  color: #22eaaa;
+  color: #007d91;
   font-size: 14px;
 }
 section#contact #contact-content #contact-form .form-group input[type="text"]:valid ~ label {
@@ -1598,16 +1602,16 @@ section#contact #contact-content #contact-form .form-group input[type="text"]:va
 }
 section#contact #contact-content #contact-form .form-group input[type="text"]:active,
 section#contact #contact-content #contact-form .form-group input[type="text"]:focus {
-  border-bottom: #22eaaa 1px solid;
+  border-bottom: #007d91 1px solid;
 }
 section#contact #contact-content #contact-form .form-group input[type="text"]:active::placeholder,
 section#contact #contact-content #contact-form .form-group input[type="text"]:focus::placeholder {
-  color: #22eaaa;
+  color: #007d91;
 }
 section#contact #contact-content #contact-form .form-group input[type="text"]:active ~ label,
 section#contact #contact-content #contact-form .form-group input[type="text"]:focus ~ label {
   margin-top: -55px;
-  color: #22eaaa;
+  color: #007d91;
   font-size: 14px;
 }
 section#contact #contact-content #contact-form .form-group input[type="text"],
@@ -1634,7 +1638,7 @@ section#contact #contact-content #contact-form button {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
-  background: #22eaaa;
+  background: #007d91;
   border: none;
   color: #ffffff;
   padding: 9px 17px;
@@ -1656,7 +1660,8 @@ section#contact #contact-content #contact-form button::after {
   -o-transition: margin .2s;
 }
 section#contact #contact-content #contact-information {
-  margin-top: 50px;
+  /*margin-top: 50px;*/
+  margin: 0 0 50px;
   font-family: 'Roboto', sans-serif;
   color: #fff;
   font-weight: 300;
@@ -1676,7 +1681,7 @@ section#contact #contact-content #contact-information div {
   margin-left: 70px;
 }
 section#contact #contact-content #contact-information #contact-phone {
-  margin-top: 60px;
+  /*margin-top: 60px;*/
 }
 section#contact #contact-content #contact-information #contact-phone::before {
   content: '';
@@ -1728,7 +1733,7 @@ section#contact #contact-content #contact-information #contact-location::before 
 footer {
   width: 100%;
   background: #222222;
-  padding-bottom: 20px;
+  padding: 10px 0;
 }
 footer #social-icons {
   display: block;
@@ -1747,13 +1752,13 @@ footer #social-icons a {
   -o-transition: background .3s;
 }
 footer #social-icons a:hover {
-  background: #22eaaa;
+  background: #007d91;
 }
 footer #social-icons a i {
   width: 30px;
 }
 footer h4 {
-  color: #999999;
+  color: #FFF;
   font-family: 'Roboto', sans-serif;
   font-size: 13px;
   text-align: center;
@@ -1812,7 +1817,7 @@ footer h4 {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #22eaaa;
+  background-color: #007d91;
   animation: cssload-fold-thecube 2.76s infinite linear both;
   -o-animation: cssload-fold-thecube 2.76s infinite linear both;
   -ms-animation: cssload-fold-thecube 2.76s infinite linear both;
@@ -1975,7 +1980,7 @@ section#blog-page #name-page {
   top: -5.5vh;
   margin: 0px auto;
   width: 230px;
-  background-color: #22eaaa;
+  background-color: #007d91;
   text-align: center;
   margin-bottom: 45px;
   -webkit-box-shadow: 1px 8px 24px 0px rgba(0, 0, 0, 0.24);
@@ -2008,7 +2013,7 @@ section#blog-page #content #main-content .entry-meta {
   margin-bottom: 25px;
 }
 section#blog-page #content #main-content .entry-meta span {
-  background-color: #22eaaa;
+  background-color: #007d91;
   padding: 5px 25px;
   color: #FFF;
   font-weight: 700;
@@ -2219,28 +2224,28 @@ section#blog-page #content #main-content #comment #comment-content #comment-form
   opacity: 0;
 }
 section#blog-page #content #main-content #comment #comment-content #comment-form .form-group textarea:active, section#blog-page #content #main-content #comment #comment-content #comment-form .form-group textarea:focus {
-  border-bottom: #22eaaa 1px solid;
+  border-bottom: #007d91 1px solid;
 }
 section#blog-page #content #main-content #comment #comment-content #comment-form .form-group textarea:active::placeholder, section#blog-page #content #main-content #comment #comment-content #comment-form .form-group textarea:focus::placeholder {
-  color: #22eaaa;
+  color: #007d91;
 }
 section#blog-page #content #main-content #comment #comment-content #comment-form .form-group textarea:active~label, section#blog-page #content #main-content #comment #comment-content #comment-form .form-group textarea:focus~label {
   margin-top: -165px;
-  color: #22eaaa;
+  color: #007d91;
   font-size: 14px;
 }
 section#blog-page #content #main-content #comment #comment-content #comment-form .form-group input[type="text"]:valid~label {
   opacity: 0;
 }
 section#blog-page #content #main-content #comment #comment-content #comment-form .form-group input[type="text"]:active, section#blog-page #content #main-content #comment #comment-content #comment-form .form-group input[type="text"]:focus {
-  border-bottom: #22eaaa 1px solid;
+  border-bottom: #007d91 1px solid;
 }
 section#blog-page #content #main-content #comment #comment-content #comment-form .form-group input[type="text"]:active::placeholder, section#blog-page #content #main-content #comment #comment-content #comment-form .form-group input[type="text"]:focus::placeholder {
-  color: #22eaaa;
+  color: #007d91;
 }
 section#blog-page #content #main-content #comment #comment-content #comment-form .form-group input[type="text"]:active~label, section#blog-page #content #main-content #comment #comment-content #comment-form .form-group input[type="text"]:focus~label {
   margin-top: -55px;
-  color: #22eaaa;
+  color: #007d91;
   font-size: 14px;
 }
 section#blog-page #content #main-content #comment #comment-content #comment-form .form-group input[type="text"], section#blog-page #content #main-content #comment #comment-content #comment-form .form-group textarea {
@@ -2262,7 +2267,7 @@ section#blog-page #content #main-content #comment #comment-content button {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   text-transform: uppercase;
-  background: #22eaaa;
+  background: #007d91;
   border: none;
   color: #ffffff;
   padding: 15px 20px 15px 35px;
@@ -2324,7 +2329,7 @@ section#blog-page #content #sidebar .widgets .categories h3 {
 }
 section#blog-page #content #sidebar .widgets .categories h3:after {
   content: " ";
-  background: #22eaaa;
+  background: #007d91;
   height: 2px;
   top: 10px;
   width: 100%;
@@ -2448,3 +2453,4 @@ section#blog-page #content #sidebar .widgets .categories .statics-cate ul li a .
     float: none !important;
   }
 }
+/*#22eaaa*/
