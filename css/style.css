@@ -973,6 +973,35 @@ section#portfolio #portfolio-hidden .portfolio-item {
   .portfolio-item {
     margin: 20px auto!important;
     float: none;
+    width: 100%;
+  }
+  section#education #education-intro #list-education .education-item {
+    padding-left: 60px;
+    margin-top: 0;
+  }
+  section#education #education-intro #list-education .education-item::before {
+    margin-left: -44px;
+    margin-top: -8px;
+    font-size: 25px;
+  }
+  section#education #education-intro #list-education .education-item::after {
+    margin-left: 70px;
+    margin-top: -52px;
+  }
+  section#education #education-intro #list-education .education-item h3 {
+    font-size: 18px;
+  }
+  section#education #education-intro #list-education .education-item h4 {
+    font-size: 14px;
+    padding: 0;
+  }
+  section#education #education-intro #list-education .education-item span {
+    font: 12px;
+  }
+}
+@media (max-width: 420px) {
+  section#education #education-intro #list-education .education-item::after{
+    content: none;
   }
 }
 #portfolio-detail .modal-dialog {
@@ -1680,8 +1709,8 @@ section#contact #contact-content #contact-information div {
   display: block;
   margin-left: 70px;
 }
-section#contact #contact-content #contact-information #contact-phone {
-  /*margin-top: 60px;*/
+section#contact #contact-content #contact-information #contact-phone a {
+  color: #FFF;
 }
 section#contact #contact-content #contact-information #contact-phone::before {
   content: '';
