@@ -1709,6 +1709,7 @@ section#contact #contact-content #contact-information div {
   display: block;
   margin-left: 70px;
 }
+section#contact #contact-content #contact-information #contact-mail a,
 section#contact #contact-content #contact-information #contact-phone a {
   color: #FFF;
 }
